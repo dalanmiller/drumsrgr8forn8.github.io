@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[]]></title>
+  <link href="http://www.natescottwest.com/atom.xml" rel="self"/>
+  <link href="http://www.natescottwest.com/"/>
+  <updated>2013-09-21T10:02:01-05:00</updated>
+  <id>http://www.natescottwest.com/</id>
+  <author>
+    <name><![CDATA[Nate West]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Importance of Whimsy in Learning to Program]]></title>
+    <link href="http://www.natescottwest.com/blog/2013/09/21/the-importance-of-whimsy-in-learning-to-program/"/>
+    <updated>2013-09-21T07:45:00-05:00</updated>
+    <id>http://www.natescottwest.com/blog/2013/09/21/the-importance-of-whimsy-in-learning-to-program</id>
+    <content type="html"><![CDATA[<h4>The beginning of this is a little bleak. I had a pretty dull, if typical, experience trying to learn to program at first. There <em>is</em> a point to this post though. If you get turned off by the first few paragraphs skip down a little because it is much more positive.</h4>
+
+<!-- more -->
+
+
+<h2>YAWN</h2>
+
+<p>I had a lot of false starts as a programmer. My first little taste was when I was ten or eleven and my dad tried to teach me some Visual Basic. His enthusism for programming was infectuos and decided I wanted to write code&hellip; It was the nineties and I tried finding programming resources but everything just seemed really off putting at the time and I quit for a couple years.</p>
+
+<p>I tried several times over the years on my own and I&rsquo;d make a lot of progress and write a simple calculator or some silly interactive terminal program and I&rsquo;d just lose interest. I was probably just looking in the wrong places but eveer resource I tried to use was so dull. I <em>thought</em> it was me for a long time. I was a musician and was always into art and creative things and thought programming must just be for math nerds.</p>
+
+<p>Then in college I though I should give it another try. I was majoring in Recording Industry and thought it would be a good backup plan (I was 18&hellip; I didn&rsquo;t nkow what I was doing.) That&rsquo;s when I found out it wasn&rsquo;t me. That&rsquo;s when I knew there&rsquo;s something fundamentally wrong with how programming typically gets taught.</p>
+
+<p>My first college programming course was in C++. It was taught totally passionless by a professor who couldn&rsquo;t really speak fluent English. We worked in Ubuntu. Fortunately I had been playing with Ubuntu for a little while any way but most kids were totally lost and very little instruction was giving on working with a Unix machine. We were given a cheat sheet of basic commands and edited code in Gedit. We moved very, very slowly. We didn&rsquo;t get to loops until at least a month or two in. The code exercises we had to work through were abstract and didn&rsquo;t seem to have a purpose. I can&rsquo;t perfectly reproduce one but it would be something like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="c1">// Write a loop that print out numbers that are multiples of three</span>
+</span><span class='line'>
+</span><span class='line'><span class="cp">#include &lt;iostream&gt;</span>
+</span><span class='line'><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'><span class="kt">int</span> <span class="n">main</span><span class="p">()</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'>  <span class="kt">int</span> <span class="n">i</span><span class="p">;</span>
+</span><span class='line'>  <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="k">while</span> <span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="mi">100</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
+</span><span class='line'>      <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">i</span><span class="p">;</span>
+</span><span class='line'>    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">;</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'>  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>When we did &ldquo;fun&rdquo; exercises they consisted of moving an ascii robot left right and up on the screen. I was bored out of my mind. With less than a month left in the class one day I just got sick to my stomach, left, and dropped the class. I decided again programming wasn&rsquo;t for me.</p>
+
+<p>So I went through a period as a lost 20 year old musician realizing I didn&rsquo;t want a career in music and not having any idea what I wanted to do. Fortunately doing recording all the time I had been spending a lot of time configuring and troubleshooting computer issues. Over the years I had kept playing with different flavors of Linux and somehow started reading Admin magazine and decided I wanted to be a Sys Admin.</p>
+
+<p>I went back to the computer classes. This time in the Information Systems program. When I took my first programming class there it was in VB. <em>This</em> professor canceled 2/5ths of our classes. Litterally, two out of five classes were canceled. He hadn&rsquo;t actually worked in the industry since the 70s and told us the most recent version of Apple&rsquo;s OS was Solaris&hellip; :( He was VERY click and code generator dependent and taught the class to be. He once took off points on an assignment because I didn&rsquo;t change the background color of all the UI elements of an application&hellip; My application did more than requested with things we hadn&rsquo;t gone over yet and I purposely didn&rsquo;t change colors because I wanted it to look like a native Windows app and I was punished for thinking through having a professional looking app. One application didn&rsquo;t even have readable text and they were given an A because they changed the colors.</p>
+
+<h2>The Fun Begins</h2>
+
+<p>Meanwhile, at home I was working through tutorials in Admin magazine and writing bash scripts. I knew there was a better way than what I was going through at school but didn&rsquo;t know how to find people who were part of the better way.</p>
+
+<p>Jump forward a few years to my first IT job. I had been there for six months and was transitioning into a more Supervisor-y role for the support team. We wrote a lot of scripts to bandage up broken processes and monitor services that weren&rsquo;t very dependable. Somehow I ended up writing a little Ruby and it changed my life.</p>
+
+<p>I think I always found programming to be a <em>little</em> fun or I would have put myself through going back and forth all my life. But it wasn&rsquo;t until I was writing Ruby that I found learning to program to be fun. What&rsquo;s funny is it really doesn&rsquo;t take much effort to be more enjoyable than the C++ examples from earlier. My first Ruby program was something like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">print</span> <span class="s2">&quot;What&#39;s your first name?&quot;</span>
+</span><span class='line'><span class="n">first_name</span> <span class="o">=</span> <span class="nb">gets</span><span class="o">.</span><span class="n">chomp</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">print</span> <span class="s2">&quot;What&#39;s your last name?&quot;</span>
+</span><span class='line'><span class="n">last_name</span> <span class="o">=</span> <span class="nb">gets</span><span class="o">.</span><span class="n">chomp</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">puts</span> <span class="s2">&quot;Your name is </span><span class="si">#{</span><span class="n">first_name</span><span class="si">}</span><span class="s2"> </span><span class="si">#{</span><span class="n">last_name</span><span class="si">}</span><span class="s2">&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>As simple as the example is and as little as it does it was much more enjoyable. I had written examples like this in C++, VB, C#, and Javascript but just getting to write gets.chomp and puts over cout &lt;&lt; and cint >> made all the difference. Ruby examples kept me engaged just long enough that I could find <a href="http://mislav.uniqpath.com/poignant-guide">_why&rsquo;s poignant guide to Ruby</a>.</p>
+
+<p><img src="http://mislav.uniqpath.com/poignant-guide/images/the.foxes-4b.png" alt="_why's foxes" />
+<img src="http://mislav.uniqpath.com/poignant-guide/images/the.foxes-4d.png" alt="more foxes" />
+<img src="http://mislav.uniqpath.com/poignant-guide/images/the.foxes-4e.png" alt="even more foxes" />
+<img src="http://mislav.uniqpath.com/poignant-guide/images/the.foxes-4f.png" alt="last foxes I promise" /></p>
+
+<p>This is the book that hooked me in. I was sold. I was a Rubyist. I immediately started thinking about code 24/7. I blew past all the material we should have covered in my college courses and started learning things that didn&rsquo;t even teach us* in college like unit testing and thinking about good Object Oriented design. I moved past needing something to engage me and just needed more input.</p>
+
+<p><img src="https://gs1.wac.edgecastcdn.net/8019B6/data.tumblr.com/tumblr_lrxp6et3MA1qhov66o1_500.jpg" alt="innnput" /></p>
+
+<p>So now I&rsquo;m at the point in my life where I can look at some archaic looking C and get excited and want to dig in. I get excited by books like <strong>Seven Languages in Seven Weeks</strong> excite me and spend my spare time writing Erlang because ideas of lightweight processes and hot code swapping excite me and while things like Celluloid are great for writing concurrent Ruby, it&rsquo;s hard to beat Erlang&rsquo;s actors. Ruby may not be the fastest language around, but the community around it seems to have more fun playing with code and naming things than any other programming community (at a distance at least).</p>
+
+<h2>I Should Get to the Point Already</h2>
+
+<p>So I guess what I&rsquo;m saying is if gets.chomp can keep me engaged enough to switch career paths and become a 24/7 programmer who dreams in code just think what naming an XML parser &ldquo;Nikogiri&rdquo; instead of &ldquo;XML Parser&rdquo; could do? Writing code <em>is</em> interesting in and of itself. Being able to write code is like being able to do magic. There&rsquo;s no reason for us to continue on pretending like we aren&rsquo;t creative. We solve difficult problems in code everyday. We could write our code in a way that communicates &ldquo;Hey, we&rsquo;re having fun. We&rsquo;re playing. Stay with us and can play, too.&rdquo; Just think about it next time you start naming a class CSVReader.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Six Things The 'Education' System is Stupid Not to Do: A Brief Rant]]></title>
+    <link href="http://www.natescottwest.com/blog/2013/06/21/six-things-the-education-system-is-stupid-not-to-do-a-brief-rant/"/>
+    <updated>2013-06-21T09:49:00-05:00</updated>
+    <id>http://www.natescottwest.com/blog/2013/06/21/six-things-the-education-system-is-stupid-not-to-do-a-brief-rant</id>
+    <content type="html"><![CDATA[<h2>Some Background</h2>
+
+<p>This all started when someone posting a link to some article about university students cheating to get by. They captioned it with “What do you think we can do to prevent cheating”. I thought it was the wrong question and that spawned this poorly written rant. Enjoy.</p>
+
+<!-- more -->
+
+
+<h2>The Rant</h2>
+
+<p><strong>The Question</strong>: &ldquo;What can we do to prevent cheating&rdquo;</p>
+
+<p><strong>The Answer</strong>:</p>
+
+<ol>
+<li><p>Untie the teachers hands. Stop determining their usefulness based on their students grades. Grading systems are so easy to game, either by the students or the teachers. Too often we just end up punishing good teachers because their kids aren’t regurgitators and rewarding teachers who are dishonest or don’t challenge their students enough but manage to teach them how to consume, regurgitate, forget.</p></li>
+<li><p>Stop rewarding information regurgitation with good grades. In fact, throw away grades all together. Let progress be it’s own reward and don’t force kids to progress until they’re ready. Likewise, let kids who are excelling progress the moment their ready and not a moment too late. Otherwise, you’ll just bore them and waste their time and yours.</p></li>
+<li><p>Quizes, short answer/multiple choice/fill-in the blank test, worksheet style homework, etc. need to DIE. DIE. DIE. They promote regurgitation followed by amnesia like a night of binge drinking.</p></li>
+<li><p>Cut the bullshit, busywork “homework”. Instead, assign reading assignments, videos to watch, information to google, etc. as homework. Better yet, make no assignments. If you actually engage students you ought to spark some interest in some topic in them that they will spend hours of their free time practicing or trying to learn more about.</p></li>
+<li><p>In class, students should be working together to apply knowledge to real world problems while they’re in an environment where they can collaborate with others and learn from each other. Create rubrics and try to quantify and measure results… In your rubric, leave room for being surprised by a creative solution. Finding solutions no one thought of is called innovation.</p></li>
+<li><p>Incentivize high performance with tangible rewards, praise, and recognition.If at all possible, let the solution to the problem be a reward in itself. Grades are imaginary numbers that kids are punished with. If you must use a number system, give positive numbers for doing well rather than penalizing for not doing as well as expecting. Reward is more effective than punishment. When you punish, you’re asking kids to try to avoid pain (cheat).</p></li>
+<li><p>For as long as grades are the focus of school and not learning, intelligent kids are going to cheat. They should cheat in school. They’d be stupid to let themselves suffer because they aren’t willing to binge and purge information. I’ve never met an all A student who wasn’t a cheater, at least on occasion, when it came to homework and tests. Kids don’t even see it as cheating because they’re avoiding pain (your brain is wired to do that donchaknow).</p></li>
+</ol>
+
+
+<p><strong>The problem is not the cheating. Cheating is just a symptom of the un-innovative, unimaginative, brain cell killing, waste of time and money we’re calling “education” in the western world.</strong></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Can't You Just]]></title>
+    <link href="http://www.natescottwest.com/blog/2013/03/16/cant-you-just/"/>
+    <updated>2013-03-16T09:43:00-05:00</updated>
+    <id>http://www.natescottwest.com/blog/2013/03/16/cant-you-just</id>
+    <content type="html"><![CDATA[<p>Some of the most toxic words in the work place to someone in IT: “can’t you just&hellip;” For those of us who have to “just change a couple internal pieces”, “just add a tiny feature to our mobile app”, or “just press a button” we have nightmares of people asking us why we can’t just get things done. What’s our immediate answer? “NO! It CANNOT be done!&#8221;</p>
+
+<p>No we can’t just… but that’s not the whole story. <!-- more --> It’s a shame we let it be most of the time because the truth is we probably can add that new feature or push that file… it may just not be as simple or it may not be the solution.</p>
+
+<p>Shouldn’t we start saying “Well, we could add that feature… but it may not be the best choice because…”?</p>
+
+<p>Yes, it’s true, the fact that they asked “can’t you just” is infuriating. It over simplifies the problem, trivializes the amount of work it will take you (not to mention the fact that they’re having to ask you in the first place because the task is not trivial). But the truth is, there’s typically a real problem behind the “just” and that annoying account manager / sales guy / manager / whatever is probably just desperate to figure out the situation them self.</p>
+
+<p>I’m not sure, but this might be obvious to anyone who’s spent time freelancing since their “just” interrogator is going to hand them a paycheck later for “just” getting that feature added. Next time you’re bothered at work by someone asking you to “just” do something maybe take a moment to think about how they contribute to your paycheck. Maybe, just maybe think about a time when you might have asked them “can’t you just fix your Outlook inbox yourself?”</p>
+]]></content>
+  </entry>
+  
+</feed>

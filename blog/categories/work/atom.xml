@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: work | ]]></title>
+  <link href="http://www.natescottwest.com/blog/categories/work/atom.xml" rel="self"/>
+  <link href="http://www.natescottwest.com/"/>
+  <updated>2013-09-21T10:02:01-05:00</updated>
+  <id>http://www.natescottwest.com/</id>
+  <author>
+    <name><![CDATA[Nate West]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Can't You Just]]></title>
+    <link href="http://www.natescottwest.com/blog/2013/03/16/cant-you-just/"/>
+    <updated>2013-03-16T09:43:00-05:00</updated>
+    <id>http://www.natescottwest.com/blog/2013/03/16/cant-you-just</id>
+    <content type="html"><![CDATA[<p>Some of the most toxic words in the work place to someone in IT: “can’t you just&hellip;” For those of us who have to “just change a couple internal pieces”, “just add a tiny feature to our mobile app”, or “just press a button” we have nightmares of people asking us why we can’t just get things done. What’s our immediate answer? “NO! It CANNOT be done!"</p>
+
+<p>No we can’t just… but that’s not the whole story. <!-- more --> It’s a shame we let it be most of the time because the truth is we probably can add that new feature or push that file… it may just not be as simple or it may not be the solution.</p>
+
+<p>Shouldn’t we start saying “Well, we could add that feature… but it may not be the best choice because…”?</p>
+
+<p>Yes, it’s true, the fact that they asked “can’t you just” is infuriating. It over simplifies the problem, trivializes the amount of work it will take you (not to mention the fact that they’re having to ask you in the first place because the task is not trivial). But the truth is, there’s typically a real problem behind the “just” and that annoying account manager / sales guy / manager / whatever is probably just desperate to figure out the situation them self.</p>
+
+<p>I’m not sure, but this might be obvious to anyone who’s spent time freelancing since their “just” interrogator is going to hand them a paycheck later for “just” getting that feature added. Next time you’re bothered at work by someone asking you to “just” do something maybe take a moment to think about how they contribute to your paycheck. Maybe, just maybe think about a time when you might have asked them “can’t you just fix your Outlook inbox yourself?”</p>
+]]></content>
+  </entry>
+  
+</feed>

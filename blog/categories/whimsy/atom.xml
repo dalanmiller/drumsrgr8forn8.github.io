@@ -4,7 +4,7 @@
   <title><![CDATA[Category: whimsy | ]]></title>
   <link href="http://www.natescottwest.com/blog/categories/whimsy/atom.xml" rel="self"/>
   <link href="http://www.natescottwest.com/"/>
-  <updated>2013-09-21T10:02:01-05:00</updated>
+  <updated>2013-09-21T12:24:40-05:00</updated>
   <id>http://www.natescottwest.com/</id>
   <author>
     <name><![CDATA[Nate West]]></name>
@@ -97,6 +97,10 @@ last_name = gets.chomp</p>
 <h2>I Should Get to the Point Already</h2>
 
 <p>So I guess what I&rsquo;m saying is if gets.chomp can keep me engaged enough to switch career paths and become a 24/7 programmer who dreams in code just think what naming an XML parser &ldquo;Nikogiri&rdquo; instead of &ldquo;XML Parser&rdquo; could do? Writing code <em>is</em> interesting in and of itself. Being able to write code is like being able to do magic. There&rsquo;s no reason for us to continue on pretending like we aren&rsquo;t creative. We solve difficult problems in code everyday. We could write our code in a way that communicates &ldquo;Hey, we&rsquo;re having fun. We&rsquo;re playing. Stay with us and can play, too.&rdquo; Just think about it next time you start naming a class CSVReader.</p>
+
+<h5>Footnote</h5>
+
+<p>*_Granted&hellip; I did end up leaving school before most of the upper division classes. They may very well have tought object oriented design later on but based on my experience my guess is it was pretty convoluted.</p>
 ]]></content>
   </entry>
   
